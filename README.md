@@ -12,3 +12,7 @@ if((':'+cur_p+':').search(':'+new_p+':') == -1) {
     GLib.setenv('PATH', new_p+':'+cur_p, true);
 }
 ```
+
+###How to install
+- Create a zip of everything
+- Install through gnome-tweak-tool
