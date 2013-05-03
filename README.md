@@ -1,4 +1,4 @@
-This extension allows you add handy stuffs in ~/.gnomeshellrc.js
+This extension allows you to add handy stuffs in ~/.gnomeshellrc.js
 
 ###Why
 
@@ -6,7 +6,7 @@ GNOME-Shell is powerful for its extension system, for example you can easily rem
 
 But isn't that weird that you have to install an extension for this? Why does the author have to write (and pack) an extension when this can be achieved by a one liner (see the example below).
  
-Consider this *one-liner* extension as Stylish or GreaseMonkey for GNOME-Shell, except that there is no repository.
+Consider this *one-liner* extension as Stylish or GreaseMonkey for GNOME-Shell, except for the lack of repository.
 
 Happy hacking!
 
@@ -29,5 +29,9 @@ if((':'+cur_p+':').search(':'+new_p+':') == -1) {
 ```
 
 ###How to install
+
+[@Official GNOME Shell Repo](https://extensions.gnome.org/extension/656/rc-script-for-gnome-shell/)
+
+Or
 - Create a zip of everything
 - Install through gnome-tweak-tool
