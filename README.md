@@ -1,6 +1,16 @@
 This extension allows you add handy stuffs in ~/.gnomeshellrc.js
 
-E.g.
+###Why
+
+GNOME-Shell is powerful for its extension system, for example you can easily remove the a11y icon by install an extension.
+
+But isn't that weird that you have to install an extension for this? Why does the author have to write (and pack) an extension when this can be achieved by a one liner (see the example below).
+ 
+Consider this *one-liner* extension as Stylish or GreaseMonkey for GNOME-Shell, except that there is no repository.
+
+Happy hacking!
+
+###Examples
 
 ```javascript
 /*
